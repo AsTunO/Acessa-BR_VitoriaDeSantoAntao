@@ -1,0 +1,36 @@
+.header {
+
+    &__container {
+        width: 100%;
+        margin: 4rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__logo {
+        display: flex;
+        align-items: flex-end;
+
+        &--state {
+
+            img {                
+                margin-right: 12px;
+            }
+        }
+
+        &--ebac{
+
+        }
+    }
+
+    &__city {
+        font-size: 1.8rem;
+        line-height: 2.1rem;
+    }
+
+    &__span {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+}

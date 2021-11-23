@@ -1,0 +1,35 @@
+@import  'colors';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto' Arial, Helvetica, sans-serif;
+    color: $black;
+    margin: 0;
+}
+
+.main {
+
+    &__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    &__container {
+        width: 100%;
+        max-width: 120rem;
+        margin: 0 auto;
+    }
+}

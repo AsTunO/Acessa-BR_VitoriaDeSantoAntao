@@ -1,8 +1,9 @@
+import './styles/global.scss';
 
 function App() {
   return (
     <div className="App">
-      <h1>AcessaBR</h1>
+      <h1>Acessa BR</h1>
     </div>
   );
 }
