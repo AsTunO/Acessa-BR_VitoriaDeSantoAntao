@@ -7,13 +7,15 @@
     scroll-behavior: smooth;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
 html {
     font-size: 62.5%;
 }
 
 body {
     font-family: 'Roboto' Arial, Helvetica, sans-serif;
-    color: $black;
+    color: var(--black);
     margin: 0;
 }
 
@@ -32,4 +34,9 @@ body {
         max-width: 120rem;
         margin: 0 auto;
     }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }

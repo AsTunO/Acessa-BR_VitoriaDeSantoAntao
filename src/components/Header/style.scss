@@ -5,7 +5,7 @@
         margin: 4rem 0;
         display: flex;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: center;
     }
 
     &__logo {
@@ -18,19 +18,18 @@
                 margin-right: 12px;
             }
         }
-
-        &--ebac{
-
-        }
     }
 
     &__city {
         font-size: 1.8rem;
-        line-height: 2.1rem;
+        font-weight: 300;
+        line-height: 1.8rem;
     }
 
     &__span {
         font-size: 1.2rem;
+        font-weight: 400;
         line-height: 1.4rem;
+        margin-right: 1.2rem;
     }
 }
