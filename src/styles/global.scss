@@ -19,7 +19,8 @@ body {
     margin: 0;
 }
 
-.main {
+.main,
+.footer {
 
     &__wrapper {
         width: 100%;
@@ -40,3 +41,4 @@ img {
     max-width: 100%;
     height: auto;
 }
+

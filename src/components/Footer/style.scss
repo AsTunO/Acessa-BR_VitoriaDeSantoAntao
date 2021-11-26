@@ -1,0 +1,51 @@
+.footer {
+
+    width: 100%;
+
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        p {
+            width: 95%;
+        }
+    }
+
+    &__section {
+
+        padding: 4rem 0;
+
+        a {
+            color:#0070C1;
+            &:hover {
+                color: var(--blue);
+            }
+        }
+
+        &--first {
+            background-color: var(--lightGreen);
+            color: var(--black);
+            font-size: 1.5rem;
+        }
+
+        &--second {
+            background-color: var(--green);
+            color: var(--white);
+            font-size: 1.8rem;
+            small {
+                font-weight: 400;
+                display: block;
+                width: 100%;
+            }
+        }
+
+    }
+    .button {
+        background-color: #DAE8FC;
+        border-radius: .5rem;
+        padding: 1rem;
+        align-self: flex-end;
+        box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    }
+}
