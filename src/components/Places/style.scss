@@ -1,3 +1,5 @@
+@import '../../styles/responsive';
+
 @mixin displayFlexRow( $width : 100%) {
     display: flex;
     flex-direction: row;
@@ -12,6 +14,7 @@
     &__header {
         @include displayFlexRow;
         margin: 0 0 4rem;
+
     }
     &__title {
         font-size: 3.2rem;
@@ -39,6 +42,14 @@
             color: #000000;
             line-height: 2.1rem;
             padding: 0 .5rem;
+        }
+    }
+    @media (max-width: $mobileLarge) {
+        &__header {
+            flex-wrap: wrap;
+        }
+        &__select {
+            margin-top: 1rem;
         }
     }
 }
