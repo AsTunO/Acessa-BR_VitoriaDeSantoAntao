@@ -1,9 +1,7 @@
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './styles.scss';
 import imagemDestaque from '../../images/imagem-destaque.png';
 import Pills from '../../components/Pills';
-import { useParams } from 'react-router';
-import { LocationContext } from '../../contexts/LocationContext';
 
 
 const PLACES = [

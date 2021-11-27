@@ -1,7 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React, {useContext} from 'react';
 import './style.scss';
 import logoAcessaBr from '../../images/logo-acessaBR.svg';
 import logoEbac from '../../images/logo-ebac.svg';
+// eslint-disable-next-line no-unused-vars
 import { LocationContext } from '../../contexts/LocationContext';
 
 const Header = () => {
