@@ -16,18 +16,11 @@ const PLACES = [
 ]
 
 const Home = () => {
-    const { city, state} = useParams();
     const [selectedPill, setSelectedPill] = useState('');
-    const {setCity, setState} = useContext(LocationContext);
-
-    useEffect(() => {
-        setCity(city);
-        setState(state);
-    }, [city, setCity, setState, state]);
     return (
         <main id="main-content" className="home__container">
             <div className="home__col">
-                <h1 className="home__title"> {city} para todos </h1>
+                <h1 className="home__title"> Vitória de Santo Antão para todos </h1>
                 <div className="home__image home__image--destack hide-desktop">
                     <img src={imagemDestaque} alt="Imagem de Destaque Cadeirante" />
                 </div>

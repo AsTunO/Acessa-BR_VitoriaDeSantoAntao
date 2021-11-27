@@ -11,7 +11,7 @@ const Routes = props => {
         <LocationContext.Provider value={{ city, setCity, state, setState}}> 
             <Header />
             <Switch>
-                    <Route path="/:state/:city" element={<Home />} /> 
+                    <Route path="/PE/Vitória de Santo Antão" element={<Home />} /> 
             </Switch>
         </LocationContext.Provider>
     )
