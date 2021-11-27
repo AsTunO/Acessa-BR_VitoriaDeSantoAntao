@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes as Switch, Route } from 'react-router-dom';
+import { Routes as Switch, Route } from 'react-router-dom';
 import Home from '../pages/Home/';
 import { LocationContext } from '../contexts/LocationContext';
 import { useState } from 'react';

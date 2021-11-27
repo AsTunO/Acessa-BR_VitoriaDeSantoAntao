@@ -23,7 +23,7 @@ const Home = () => {
     useEffect(() => {
         setCity(city);
         setState(state);
-    }, [city, state]);
+    }, [city, setCity, setState, state]);
     return (
         <main id="main-content" className="home__container">
             <div className="home__col">
