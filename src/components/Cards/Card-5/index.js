@@ -1,28 +1,28 @@
 import React from 'react';
 import './style.scss';
-import Button from '../Button';
+import Button from '../../Button';
 
-import iconAudio from '../../images/icon-audio-descricao 1.png';
-import iconBanheiro from '../../images/icon-banheiro-acessivel.png';
-import iconBraile from '../../images/icon-braile.png';
-import iconCao from '../../images/icon-caoguia.png';
-import iconElevador from '../../images/icon-elevador.png';
-import iconEstacionamento from '../../images/icon-estacionamento.png';
-import iconLibras from '../../images/icon-libras.png';
-import iconPiso from '../../images/icon-piso-tatil.png';
-import iconPorta from '../../images/icon-porta-larga.png';
-import iconRampa from '../../images/icon-rampa.png';
-
+import iconAudio from '../../../images/icon-audio-descricao 1.png';
+import iconBanheiro from '../../../images/icon-banheiro-acessivel.png';
+import iconBraile from '../../../images/icon-braile.png';
+import iconCao from '../../../images/icon-caoguia.png';
+import iconElevador from '../../../images/icon-elevador.png';
+import iconEstacionamento from '../../../images/icon-estacionamento.png';
+import iconLibras from '../../../images/icon-libras.png';
+import iconPiso from '../../../images/icon-piso-tatil.png';
+import iconPorta from '../../../images/icon-porta-larga.png';
+import iconRampa from '../../../images/icon-rampa.png';
+import image5 from '../../../images/05rem.png';
 const Card = () => {
     return (
         <div className="card__container">
             <div className="card__image">
-
+                <img src={image5} alt="Imagem da Praça Leão" />
             </div>
             <div className="card__content">
-                <h3>Nome do local</h3>
+                <h3>Praça Leão</h3>
                 <ul className="card__facilities">
-                    <li className="card__facilities__item">
+                    <li className="card__facilities__item card__facilities__item--uncheked">
                         <img 
                             src={iconBraile} 
                             alt="Sinalização em Braile" 
@@ -36,7 +36,7 @@ const Card = () => {
                             title="Audio descrição"
                         />
                     </li>
-                    <li className="card__facilities__item">
+                    <li className="card__facilities__item card__facilities__item--uncheked">
                         <img
                             src={iconBanheiro}
                             alt="Banheiro acessível"
@@ -57,7 +57,7 @@ const Card = () => {
                             title="Estacionamento para idosos / deficientes "
                         />
                     </li>
-                    <li className="card__facilities__item">
+                    <li className="card__facilities__item card__facilities__item--uncheked">
                         <img
                             src={iconCao}
                             alt="Permite acesso de cães-guias"
@@ -78,7 +78,7 @@ const Card = () => {
                             title="Portas largas"
                         />
                     </li>
-                    <li className="card__facilities__item">
+                    <li className="card__facilities__item card__facilities__item--uncheked">
                         <img
                             src={iconRampa}
                             alt="Rampas de acesso para cadeirante"
@@ -93,7 +93,7 @@ const Card = () => {
                         />
                     </li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adip</p>
+                <p>Local adequado para conhecer novas pessoas!</p>
                 <Button>Como Chegar</Button>
             </div>
         </div>

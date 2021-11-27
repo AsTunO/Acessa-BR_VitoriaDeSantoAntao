@@ -1,5 +1,9 @@
 import React from 'react';
-import Card from '../Card';
+import Card1 from '../Cards/Card-1';
+import Card2 from '../Cards/Card-2';
+import Card3 from '../Cards/Card-3';
+import Card4 from '../Cards/Card-4';
+import Card5 from '../Cards/Card-5';
 import SwiperCore, {Pagination} from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -20,19 +24,19 @@ function Slider() {
             }}
         >
             <SwiperSlide>
-                <Card />
+                <Card1 />
             </SwiperSlide>
             <SwiperSlide>
-                <Card />
+                <Card2 />
             </SwiperSlide>
             <SwiperSlide>
-                <Card />
+                <Card3 />
             </SwiperSlide>
             <SwiperSlide>
-                <Card />
+                <Card4 />
             </SwiperSlide>
             <SwiperSlide>
-                <Card />
+                <Card5 />
             </SwiperSlide>
         </Swiper >
     )

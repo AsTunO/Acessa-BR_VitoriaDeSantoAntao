@@ -1,0 +1,269 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Praça do Livramento",
+            "description": "Local perfeito para familia e entreterimento!",
+            "location": {
+                "lat": "12345",
+                "long": "54321"
+            },
+            "facilities": [
+                [
+                    {
+                        "item": 1,
+                        "status": false
+                    },
+                    {
+                        "item": 2,
+                        "status": false
+                    },
+                    {
+                        "item": 3,
+                        "status": true
+                    },
+                    {
+                        "item": 4,
+                        "status": false
+                    },
+                    {
+                        "item": 5,
+                        "status": true
+                    },
+                    {
+                        "item": 6,
+                        "status": true
+                    },
+                    {
+                        "item": 7,
+                        "status": false
+                    },
+                    {
+                        "item": 8,
+                        "status": true
+                    },
+                    {
+                        "item": 9,
+                        "status": true
+                    },
+                    {
+                        "item": 10,
+                        "status": false
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Praça da Matriz",
+            "description": "Local perfeito entreterimento e para familia!",
+            "location": {
+                "lat": "12345",
+                "long": "54321"
+            },
+            "facilities": [
+                [
+                    {
+                        "item": 1,
+                        "status": false
+                    },
+                    {
+                        "item": 2,
+                        "status": false
+                    },
+                    {
+                        "item": 3,
+                        "status": true
+                    },
+                    {
+                        "item": 4,
+                        "status": false
+                    },
+                    {
+                        "item": 5,
+                        "status": true
+                    },
+                    {
+                        "item": 6,
+                        "status": true
+                    },
+                    {
+                        "item": 7,
+                        "status": false
+                    },
+                    {
+                        "item": 8,
+                        "status": true
+                    },
+                    {
+                        "item": 9,
+                        "status": true
+                    },
+                    {
+                        "item": 10,
+                        "status": false
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Praça da Bela Vista",
+            "description": "Otimo local para descançar e conversar.",
+            "location": {
+                "lat": "12345",
+                "long": "54321"
+            },
+            "facilities": [
+                [
+                    {
+                        "item": 1,
+                        "status": false
+                    },
+                    {
+                        "item": 2,
+                        "status": false
+                    },
+                    {
+                        "item": 3,
+                        "status": true
+                    },
+                    {
+                        "item": 4,
+                        "status": false
+                    },
+                    {
+                        "item": 5,
+                        "status": true
+                    },
+                    {
+                        "item": 6,
+                        "status": true
+                    },
+                    {
+                        "item": 7,
+                        "status": false
+                    },
+                    {
+                        "item": 8,
+                        "status": true
+                    },
+                    {
+                        "item": 9,
+                        "status": true
+                    },
+                    {
+                        "item": 10,
+                        "status": false
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Praça do Rotary",
+            "description": "Otimo local para conversar e descançar.",
+            "location": {
+                "lat": "12345",
+                "long": "54321"
+            },
+            "facilities": [
+                [
+                    {
+                        "item": 1,
+                        "status": false
+                    },
+                    {
+                        "item": 2,
+                        "status": false
+                    },
+                    {
+                        "item": 3,
+                        "status": true
+                    },
+                    {
+                        "item": 4,
+                        "status": false
+                    },
+                    {
+                        "item": 5,
+                        "status": true
+                    },
+                    {
+                        "item": 6,
+                        "status": true
+                    },
+                    {
+                        "item": 7,
+                        "status": false
+                    },
+                    {
+                        "item": 8,
+                        "status": true
+                    },
+                    {
+                        "item": 9,
+                        "status": true
+                    },
+                    {
+                        "item": 10,
+                        "status": false
+                    }
+                ]
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Praça Leão Coroado",
+            "description": "Local adequado para conhecer novas pessoas!",
+            "location": {
+                "lat": "12345",
+                "long": "54321"
+            },
+            "facilities": [
+                [
+                    {
+                        "item": 1,
+                        "status": false
+                    },
+                    {
+                        "item": 2,
+                        "status": false
+                    },
+                    {
+                        "item": 3,
+                        "status": true
+                    },
+                    {
+                        "item": 4,
+                        "status": false
+                    },
+                    {
+                        "item": 5,
+                        "status": true
+                    },
+                    {
+                        "item": 6,
+                        "status": true
+                    },
+                    {
+                        "item": 7,
+                        "status": false
+                    },
+                    {
+                        "item": 8,
+                        "status": true
+                    },
+                    {
+                        "item": 9,
+                        "status": true
+                    },
+                    {
+                        "item": 10,
+                        "status": false
+                    }
+                ]
+            ]
+        }
+    ]
+}
